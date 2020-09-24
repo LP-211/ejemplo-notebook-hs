@@ -1,0 +1,4 @@
+* Notebook de Jupyter ft haskell
+
+  Aquí deberían poder descargar el =Ejemplo.ipynb= que no se puede en el 
+  classroom.
