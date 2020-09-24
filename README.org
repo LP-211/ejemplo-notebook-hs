@@ -2,3 +2,27 @@
 
   Aquí deberían poder descargar el =Ejemplo.ipynb= que no se puede en el 
   classroom.
+
+** Instrucciones
+   En una terminal: =python notebook=.
+
+   En el directorio que el comando es ejecutado, se inicializará el 
+   notebook. Por ejemplo, si tengo la siguiente estructura:
+
+   #+name: estructura
+   #+begin_src ditaa
+   .
+   |
+   +--carpeta1
+   |  +--archivo1.ipynb
+   +--carpeta2
+   |  +--archivo2.ipynb
+   +--carpeta3
+   |  +--archivo3.ipynb
+   +--README.org                 <<<====== Este archivo
+   #+end_src
+
+   Y ejecuto el comando en el directorio =.=, podré acceder a los 
+   notebooks de cualquiera de las tres carpetas, en cambio, si lo
+   ejecuto en alguna carpetaN, solo podré acceder al =archivoN.ipynb=
+   y no a los otros dos.
